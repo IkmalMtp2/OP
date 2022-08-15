@@ -59,7 +59,7 @@ fs.watchFile(file_exif, () => {
 // Sticker WM
 global.packname = sticker_name
 global.author = sticker_author
-global.wm = 'By Ikmal
+global.wm = 'By Ikmal'
 
 global.multiplier = 200 // The higher, The harder levelup
 
