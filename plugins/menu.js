@@ -37,7 +37,7 @@ const defaultMenu = {
   before: `
 ╔═══╗ ♪
 ║███║ ♫.        🅼🅴🅽🆄 🅱︎🅾︎🆃
-║ (●) ♫.       🅱︎🆈 🅰︎🆁🅸🅴🆃🆄🅱︎🅴▶️
+║ (●) ♫.
 ╚═══╝♪♪
 ❂═══❖•ೋ•:･ﾟ✧:･ﾟ✧
 ╟ꂑ 𝐻𝑎𝑖, %ucapan %name! 👋
@@ -181,36 +181,36 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
            hydratedFooterText: wm,
            hydratedButtons: [{
              urlButton: {
-               displayText: '✏️ S̺͆o̺͆u̺͆r̺͆c̺͆e̺͆ C̺͆o̺͆d̺͆e̺͆',
-               url: 'https://youtu.be/J0KmlEwLIVc'
+               displayText: '✏️ Github Owner',
+               url: 'https://github.com/IkmalMtp2'
              }
 
            },
              {
              callButton: {
-               displayText: 'H̺͆p̺͆ O̺͆w̺͆n̺͆e̺͆r̺͆',
+               displayText: '▶️ Youtube Owner',
                PhoneNumber: '0858-2835-7727'
              }
 
            },
                {
              quickReplyButton: {
-               displayText: '👤 O̺͆w̺͆n̺͆e̺͆r̺͆',
+               displayText: '👤 *Owner*',
                id: '.owner',
              }
 
            },
                {
              quickReplyButton: {
-               displayText: '🤝 D̺͆o̺͆n̺͆a̺͆s̺͆i̺͆',
+               displayText: '🤝 *Donasi*',
                id: '.donasi',
              }
 
            },
            {
              quickReplyButton: {
-               displayText: '📳S̺͆e̺͆w̺͆a̺͆ B̺͆o̺͆t̺͆',
-               id: '.sc',
+               displayText: '📳 *Sewa Bot*',
+               id: '.sewa',
              }
            }]
          }
