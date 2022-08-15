@@ -189,27 +189,27 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
              {
              callButton: {
                displayText: '▶️ Youtube Owner',
-               PhoneNumber: '0858-2835-7727'
+               PhoneNumber: 'https://youtube.com/channel/UCk2nwucP_xvVekaokk0QnWg'
              }
 
            },
                {
              quickReplyButton: {
-               displayText: '👤 *Owner*',
+               displayText: '👤 Owner',
                id: '.owner',
              }
 
            },
                {
              quickReplyButton: {
-               displayText: '🤝 *Donasi*',
+               displayText: '🤝 Donasi',
                id: '.donasi',
              }
 
            },
            {
              quickReplyButton: {
-               displayText: '📳 *Sewa Bot*',
+               displayText: '📳 Sewa Bot',
                id: '.sewa',
              }
            }]
